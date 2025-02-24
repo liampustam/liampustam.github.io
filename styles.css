@@ -9,9 +9,28 @@ body{
 h1{
     font-family: "Montez";
     font-size: 64px;
-    color:&:black //useless
+    text-align:center;
 }
 
 h5{
     color:black
+}
+
+div{
+    text-align: center;
+}
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(255, 255, 255)
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+a{
+    color:rgb(0, 0, 0)
+
+    
+    
 }
