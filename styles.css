@@ -9,7 +9,7 @@ body{
 h1{
     font-family: "Montez";
     font-size: 64px;
-    text-align:center;
+    text-align: left;
 }
 
 h5{
@@ -27,10 +27,23 @@ li{
     display: inline-block;
     padding: 20px;
     
+    
 }
 a{
     color:rgb(0, 0, 0)
-
-    
-    
 }
+
+li > a:hover{
+    background-color: red;
+}
+
+.Foods:nth-child(even){
+
+    flex-direction: row-reverse;
+}
+
+img{
+    max-width: 250px;
+    max-height: 600px;
+}
+
