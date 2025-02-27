@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Info</title>
     <link rel="stylesheet" href="styles.css">
-    <div>
+    <div class="navbar">
         <nav>
             <uv>
                 <li><a href="index.html">Home Page</a></li>
@@ -23,5 +23,50 @@
     <h2>Contact Information</h2>
     <p>Phone Number: (347)358-8076 </p>
     <p>Personal Email: liampustam@gmail.com</p>
+    <h2>How would like to contact me:</h2>
+    <div>
+        <form 
+            action="https://form-to-email.steam-center.workers.dev/"
+            method="post"
+        >
+            <input hidden name="send-to" value="lpustam@brooklynsteamcenter.org">
+
+            *
+            <label>Your Name:</label>
+            <br>
+            <input type="text" required name="name">
+            <br>
+
+            *
+            <label>Email:</label>
+            <br>
+            <input  type="text" required name="email">
+            <br>
+
+            *
+            <label>Phone Number:</label>
+            <br>
+            <input type="tel" required name="phone">
+            <br>
+            <br>
+            <br>
+
+           <div> 
+            *
+            <label>What do you need from me</label>
+            <br>
+            <textarea name="what_do_you_need" requried></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+
+
+        </form>
+
+
+
+    </div>
 </body>
 </html>
