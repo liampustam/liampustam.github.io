@@ -20,9 +20,15 @@
 </head>
 <body>
     <h1>L&P</h1>
-    <h2>Contact Information</h2>
-    <p>Phone Number: (347)358-8076 </p>
-    <p>Personal Email: liampustam@gmail.com</p>
+    <h2>Contact Information:</h2>
+    <a href="tel:(347)358-8076">
+        <i data-lucide="phone"></i>
+    </a>
+    <br>
+    <br>
+    <a href="mailto:liampustam@gmail.com">
+        <i data-lucide="mail" width="25px" height="25px"></i>
+    </a>
     <h2>How would like to contact me:</h2>
     <div>
         <form 
@@ -57,16 +63,26 @@
             <br>
             <textarea name="what_do_you_need" requried></textarea>
             <br>
-            <input type="submit">
-            <input type="reset">
+
+            
+            <button type="submit">
+                <i data-lucide="send"></i>
+            </button>
+            <button type="reset">
+                <i data-lucide="rotate-ccw"></i>
+            </button>
         </div>
 
 
 
         </form>
-
-
-
     </div>
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+   <script>
+    lucide.createIcons();
+  </script>
+  
 </body>
 </html>
